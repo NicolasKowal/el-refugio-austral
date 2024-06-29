@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 function Navbar() {
 	return (
@@ -56,9 +56,11 @@ function Navbar() {
 			<li>
 				<div className="carritoDeCompras">
 					<a href="">
-						<img src="./img/carrito-de-compras.png" alt="imgref" />
+						<div>
+							<img src="./img/carrito-de-compras.png" alt="imgref" />
+						</div>
+						<p>-</p>
 					</a>
-					<p>-</p>
 				</div>
 			</li>
 		</ul>

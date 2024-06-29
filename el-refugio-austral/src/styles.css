@@ -1,0 +1,65 @@
+img {
+  height: 75px;
+}
+
+.BarraDeNavegacion {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background: rgba(255, 0, 0, 0.336);
+  align-items: center;
+  justify-content: space-around;
+}
+.BarraDeNavegacion li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 75%;
+  background: rgba(0, 0, 255, 0.308);
+}
+
+/*
+.BarraDeNavegacion :has(img) {
+	height: 75px;
+	width: 75px;
+	background: none;
+}*/
+.BarraDeNavegacion a {
+  color: black;
+}
+
+.dropdown-menu li {
+  width: 250px;
+}
+
+.dropdown-item {
+  background: greenyellow;
+  height: 40px;
+}
+
+.carritoDeCompras {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: goldenrod;
+}
+
+.carritoDeCompras img {
+  position: static;
+  height: 50px;
+}
+
+.carritoDeCompras p {
+  position: relative;
+  top: 0px;
+  right: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  background: purple;
+}
+
+/*# sourceMappingURL=styles.css.map */
