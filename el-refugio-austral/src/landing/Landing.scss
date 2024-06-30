@@ -1,0 +1,17 @@
+@import "../sass/base.scss";
+
+.a1 {
+	background: nth($paleta, 1);
+}
+.a2 {
+	background: nth($paleta, 2);
+}
+.a3 {
+	background: nth($paleta, 3);
+}
+.a4 {
+	background: nth($paleta, 4);
+}
+.a5 {
+	background: nth($paleta, 5);
+}
