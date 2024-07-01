@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.scss";
 function landing() {
 	return (
-		<div>
+		<div className="paletaDecolores">
 			<p className="a1">1</p>
 			<p className="a2">2</p>
 			<p className="a3">3</p>

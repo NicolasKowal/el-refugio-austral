@@ -80,7 +80,7 @@ function Navbar() {
 										<div>
 											<img src="./img/carrito-de-compras.png" alt="imgref" />
 										</div>
-										<p></p>
+										<p>5</p>
 									</a>
 								</div>
 							</li>

@@ -15,3 +15,13 @@
 .a5 {
 	background: nth($paleta, 5);
 }
+.paletaDecolores {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	p {
+		height: 100px;
+		width: 100px;
+	}
+}

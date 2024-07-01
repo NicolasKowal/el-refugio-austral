@@ -56,25 +56,28 @@
 		p {
 			position: relative;
 			top: -15px;
-			right: 15px;
-			height: 20px;
-			width: 30px;
+			right: 30px;
+			height: 30px;
+			width: 45px;
 			border-radius: 100%;
 			background: purple;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 1em;
+			font-size: 1.1em;
 			color: white;
 			z-index: 100;
 		}
 		div {
+			height: 100%;
+			width: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			img {
-				height: 40px;
+				height: 50px;
 				z-index: 90;
+				aspect-ratio: 1/1;
 			}
 		}
 	}
