@@ -138,10 +138,14 @@
 
 .topBar {
   height: 30px;
+  background: #78a8c8;
 }
 .topBar p {
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

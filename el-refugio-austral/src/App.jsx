@@ -1,14 +1,14 @@
 import "./App.css";
 import Navbar from "./navbar/Navbar";
-import Landing from "./landing/Landing";
 import Topbar from "./topbar/Topbar";
+import Card from "./card/Card";
 
 function App() {
 	return (
 		<>
 			<Topbar />
 			<Navbar />
-			<Landing />
+			<Card />
 		</>
 	);
 }
