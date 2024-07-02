@@ -10,43 +10,6 @@
   box-sizing: border-box;
 }
 
-.a1 {
-  background: #72a461;
-}
-
-.a2 {
-  background: #78a8c8;
-}
-
-.a3 {
-  background: #9c7c5c;
-}
-
-.a4 {
-  background: #ffa03c;
-}
-
-.a5 {
-  background: #d2d2d2;
-}
-
-.paletaDecolores {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-}
-.paletaDecolores p {
-  height: 100px;
-  width: 100px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .container-fluid {
   background: #72a461;
 }
@@ -101,11 +64,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .carritoDeCompras a p {
   position: relative;
   top: -15px;
-  right: 30px;
+  right: 32px;
   height: 30px;
   width: 45px;
   border-radius: 100%;
@@ -115,7 +79,7 @@
   justify-content: center;
   font-size: 1.1em;
   color: white;
-  z-index: 100;
+  z-index: 1000;
 }
 .carritoDeCompras a div {
   height: 100%;
@@ -125,6 +89,9 @@
   justify-content: center;
 }
 .carritoDeCompras a div img {
+  position: relative;
+  top: 10px;
+  right: 0px;
   height: 50px;
   z-index: 90;
   aspect-ratio: 1/1;
@@ -146,6 +113,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 250px;
 }
 
 /*# sourceMappingURL=styles.css.map */

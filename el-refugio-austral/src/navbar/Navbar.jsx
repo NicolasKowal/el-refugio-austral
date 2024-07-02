@@ -1,6 +1,39 @@
 import React from "react";
 import "./Navbar.scss";
 
+const listaCategorias = [
+	{ key: "Alimentos", value: "#" },
+	{ key: "Accesorios", value: "#" },
+	{ key: "Juguetes", value: "#" },
+	{ key: "Productos de Higiene", value: "#" },
+	{ key: "Colchones", value: "#" },
+];
+
+function GenerarLista({ array }) {
+	return (
+		<li className="nav-item dropdown">
+			<a
+				className="nav-link dropdown-toggle"
+				href="#"
+				role="button"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+			>
+				Productos
+			</a>
+			<ul className="dropdown-menu">
+				{array.map((element) => (
+					<li>
+						<a className="dropdown-item" href={element.value}>
+							{element.key}
+						</a>
+					</li>
+				))}
+			</ul>
+		</li>
+	);
+}
+
 function Navbar() {
 	return (
 		<>
@@ -31,44 +64,7 @@ function Navbar() {
 									¿Como comprar?
 								</a>
 							</li>
-							<li className="nav-item dropdown">
-								<a
-									className="nav-link dropdown-toggle"
-									href="#"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Productos
-								</a>
-								<ul className="dropdown-menu">
-									<li>
-										<a className="dropdown-item" href="#">
-											Alimentos
-										</a>
-									</li>
-									<li>
-										<a className="dropdown-item" href="#">
-											Ropa
-										</a>
-									</li>
-									<li>
-										<a className="dropdown-item" href="#">
-											Juguetes
-										</a>
-									</li>
-									<li>
-										<a className="dropdown-item" href="#">
-											Accesorios
-										</a>
-									</li>
-									<li>
-										<a className="dropdown-item" href="#">
-											Veterinaria
-										</a>
-									</li>
-								</ul>
-							</li>
+							<GenerarLista array={listaCategorias} />
 							<li className="nav-item">
 								<a className="nav-link" href="#">
 									Contacto
