@@ -1,5 +1,6 @@
 import React from "react";
-import "./Navbar.scss";
+import "./Navbar.css";
+import Carrito from "../carrito/Carrito";
 
 const listaCategorias = [
 	{ key: "Alimentos", value: "#" },
@@ -70,16 +71,7 @@ function Navbar() {
 									Contacto
 								</a>
 							</li>
-							<li>
-								<div className="carritoDeCompras">
-									<a href="">
-										<div>
-											<img src="./img/carrito-de-compras.png" alt="imgref" />
-										</div>
-										<p>5</p>
-									</a>
-								</div>
-							</li>
+							<Carrito />
 						</ul>
 					</div>
 				</div>

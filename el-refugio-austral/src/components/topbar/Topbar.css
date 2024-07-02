@@ -1,8 +1,6 @@
-@import "../sass/base.scss";
-
 .topBar {
 	height: 30px;
-	background: nth($paleta, 2);
+	background: blue;
 	p {
 		height: 100%;
 		width: 100%;
